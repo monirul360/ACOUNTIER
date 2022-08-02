@@ -1,8 +1,368 @@
-body {
-  font-family: 'Poppins', sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-a {
+body {
+  font-family: 'Poppins', sans-serif, roboto;
+  background-color: #F9F9F9;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+a,
+img {
+  margin-bottom: 0px;
+}
+
+ol,
+ul {
+  padding-left: 0px;
+}
+
+button,
+.btn,
+input[type="submit"] {
+  border: 0px;
+  outline: 0px;
+}
+
+button:hover,
+.btn:hover,
+input[type="submit"]:hover {
+  border: 0px;
+  outline: 0px;
+}
+
+button:focus,
+.btn:focus,
+input[type="submit"]:focus {
+  border: 0px;
+  outline: 0px;
+}
+
+/*Header*/
+.header {
+  width: 100%;
+  height: 80px;
+  background: #ffffff;
+}
+
+.header a {
   text-decoration: none;
+}
+
+.header .container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header .header-logo h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #35b0e1;
+  font-size: 1.5rem;
+}
+
+.header .header-logo h1:hover {
+  color: #5ec8f1;
+}
+
+.header .header-logo img {
+  width: 100px;
+}
+
+.header .header-menu .header-navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.header .header-menu .header-navbar ul li {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header .header-menu .header-navbar ul li:hover a {
+  color: #35b0e1;
+}
+
+.header .header-menu .header-navbar ul li a {
+  color: #000;
+  text-transform: capitalize;
+  display: block;
+  padding: 3px 15px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.header .header-menu .header-navbar ul .active a {
+  color: #35b0e1;
+}
+
+.header .header-menu .header-navbar ul .login {
+  border: 1px solid #35b0e1;
+  border-radius: 50px;
+  border-radius: 50px;
+}
+
+.header .header-menu .header-navbar ul .login:hover {
+  background-color: #35b0e1;
+}
+
+.header .header-menu .header-navbar ul .login:hover a {
+  color: #fff;
+}
+
+.header .header-menu .header-navbar ul .login a {
+  color: #35b0e1;
+}
+
+/*Intro Section*/
+.hero {
+  height: 600px;
+  background: url("../src/Image/Home/hero-image.png"), -webkit-gradient(linear, left top, left bottom, from(#35b0e1), to(#35b0e1));
+  background: url("../src/Image/Home/hero-image.png"), linear-gradient(#35b0e1, #35b0e1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .hero-text,
+.hero .hero-form {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero .hero-text .text-box .hero-title {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.hero .hero-text .text-box .hero-description {
+  color: #fff;
+}
+
+.hero .hero-text .text-box .hero-button {
+  color: #35b0e1;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.hero .hero-form .form-box {
+  width: 300px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 10px #0005;
+  box-shadow: 0px 0px 10px #0005;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.hero .hero-form .form-box .hero-form-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hero .hero-form .form-box input {
+  margin: 10px 0px;
+}
+
+.hero .hero-form .form-box input:not(input[type="submit"]) {
+  font-size: 14px;
+}
+
+.hero .hero-form .form-box input[type="submit"] {
+  background: #35b0e1;
+  color: #fff;
+}
+
+/*Client Logo Section*/
+.client .clint-logo ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.client .clint-logo ul li img {
+  width: 120px;
+}
+
+/*Who We are*/
+.whoWeAre .img-box img {
+  width: 100%;
+}
+
+.whoWeAre .text-box .section-title {
+  color: #35b0e1;
+  font-size: 0.8em;
+  letter-spacing: 5px;
+}
+
+.whoWeAre .text-box .section-button {
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #35b0e1;
+  color: #fff;
+}
+
+.whoWeAre .text-box .section-button:hover {
+  padding: 7px 19px;
+  color: #35b0e1;
+  border: 1px solid #35b0e1;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .header .nav-mini-button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+  /*Hero*/
+  .hero {
+    height: auto;
+  }
+
+  .hero .hero-text,
+  .hero .hero-form {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .hero .hero-form .form-box {
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 10px #0005;
+    box-shadow: 0px 0px 10px #0005;
+    border-radius: 10px;
+    padding: 30px 20px;
+  }
+
+  /*Client Logo Section*/
+  .client .clint-logo ul li img {
+    width: 100px;
+  }
+
+  .whoWeAre .img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .whoWeAre .img-box img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header .header-logo img {
+    width: 120px;
+  }
+
+  .header .nav-mini-button i {
+    font-size: 25px;
+  }
+
+  .header .header-menu .header-navbar {
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .header .header-menu .header-navbar ul {
+    display: block;
+  }
+
+  .header .header-menu .header-navbar ul li a {
+    color: #fff;
+    padding: 5px 10px;
+  }
+
+  .header .header-menu .header-navbar .login {
+    margin-top: 10px;
+  }
+
+  .header .header-menu .header-navbar-hide {
+    display: none;
+    width: 0px;
+  }
+
+  .header .header-menu .header-navbar-show {
+    display: block;
+    width: 200px;
+  }
+
+  /*Client Logo Section*/
+  .client .clint-logo ul li img {
+    width: 80px;
+  }
 }
