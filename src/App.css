@@ -29,6 +29,10 @@ img {
   margin-bottom: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 ol,
 ul {
   padding-left: 0px;

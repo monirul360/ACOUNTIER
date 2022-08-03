@@ -29,7 +29,7 @@ const Login = () => {
                                         value="Login Now"
                                     />
                                 </form>
-                                <p className='my-4'>Don’t have and account? <Link to='/'> Create Account</Link></p>
+                                <p className='my-4'>Don’t have and account? <Link to='/signup'> Create Account</Link></p>
                             </div>
                         </div>
                         <div className="col-md-4">
