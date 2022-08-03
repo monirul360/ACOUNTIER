@@ -1,25 +1,40 @@
 import React from 'react';
-import './Contact.css'
+
 const Contact = () => {
     return (
         <div>
-            <section className='py-5'>
-                <div className="container">
-                    <div className='text-center'>
-                        <h4>Contact Us</h4>
-                        <p>There are many variations of passages of Lorem Ipsum available</p>
-                        <p>but the majority have suffered alteration</p>
+            {/* Contact Section */}
+            <section class="contact py-5 bg-light">
+                <div class="container">
+                    <div class="section-heading mb-3 text-center">
+                        <h2 class="section-title">Contact Us</h2>
+                        <p class="section-description mt-3">
+                            There are many variations of passages of Lorem Ipsum available
+                            but the majority have suffered alteration
+                        </p>
                     </div>
-                    <div className='contact-from'>
-                        <form>
-                            <input type="text" name="" id="" placeholder='Name' />
-                            <input type="email" name="" id="" placeholder='E-mail' />
-                            <select name="" id="">
-                                <option value="">Select Subject</option>
-                                <option value="">Select Subject</option>
-                                <option value="">Select Subject</option>
-                            </select>
-                            <input type="text" name="" placeholder='Company Name (Optional)' id="" />
+                    <div class="contact-form mt-5">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="form-group col-12 col-md-6">
+                                    <input type="text" class="form-control" id="" name="" placeholder="Name" />
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <input type="text" class="form-control" id="" name="" placeholder="E-mail" />
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <input type="text" class="form-control" id="" name="" placeholder="Name" />
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <input type="text" class="form-control" id="" name="" placeholder="Name" />
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" name="" id="" rows="5" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <input class="form-control" type="submit" value="Send Message" />
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
