@@ -51,10 +51,33 @@
 
 /* page-title */
 .page-title {
-    padding: 40px;
+    padding: 70px;
     background-color: #33B1E1;
     text-align: center;
     font-style: normal;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+/* common-section */
+
+.common-section {
+    width: 90%;
+    margin: auto;
+}
+
+.common-section {
+    color: #424344;
+}
+
+@media (max-width:992px) {
+    .common-section {
+        width: 90%;
+    }
+}
+
+@media (max-width:768px) {
+    .common-section {
+        width: 100%;
+    }
 }
