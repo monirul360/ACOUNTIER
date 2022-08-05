@@ -22,6 +22,8 @@ import PayrollServices from './Component/PayrollServices/PayrollServices';
 import ContactUs from './Component/ContactUs/ContactUs';
 import Verification from './Component/Verification/Verification';
 import AccountingServices from './Component/AccountingServices/AccountingServices';
+import IncomeTaxFiling from './Component/IncomeTaxFiling/IncomeTaxFiling';
+import PrivateLimitedCompany from './Component/PrivateLimitedCompany/PrivateLimitedCompany';
 
 function App() {
   return (
@@ -48,6 +50,8 @@ function App() {
         <Route path='/ContactUs' element={<ContactUs></ContactUs>}></Route>
         <Route path='Verification' element={<Verification></Verification>}></Route>
         <Route path='/AccountingServices' element={<AccountingServices></AccountingServices>}></Route>
+        <Route path='/IncomeTaxFiling' element={<IncomeTaxFiling></IncomeTaxFiling>}></Route>
+        <Route path='/PrivateLimitedCompany' element={<PrivateLimitedCompany></PrivateLimitedCompany>}></Route>
       </Routes>
       <Footer></Footer>
     </>

@@ -1,4 +1,6 @@
 import React from 'react';
+import Choose from '../Home/Choose/Choose';
+import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
 import img from './../../Image/Page/8.png';
 const AccountingServices = () => {
@@ -86,6 +88,8 @@ const AccountingServices = () => {
                     </div>
                 </div>
             </section>
+            <Choose></Choose>
+            <Client></Client>
         </div>
     );
 };
