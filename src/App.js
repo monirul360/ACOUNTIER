@@ -20,6 +20,8 @@ import BookkeepingServices from './Component/BookkeepingServices/BookkeepingServ
 import CfoServices from './Component/CfoServices/CfoServices';
 import PayrollServices from './Component/PayrollServices/PayrollServices';
 import ContactUs from './Component/ContactUs/ContactUs';
+import Verification from './Component/Verification/Verification';
+import AccountingServices from './Component/AccountingServices/AccountingServices';
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
         <Route path='/CfoServices' element={<CfoServices></CfoServices>}></Route>
         <Route path='/PayrollServices' element={<PayrollServices></PayrollServices>}></Route>
         <Route path='/ContactUs' element={<ContactUs></ContactUs>}></Route>
+        <Route path='Verification' element={<Verification></Verification>}></Route>
+        <Route path='/AccountingServices' element={<AccountingServices></AccountingServices>}></Route>
       </Routes>
       <Footer></Footer>
     </>
