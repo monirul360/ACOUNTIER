@@ -2,7 +2,12 @@ import React from 'react';
 import Choose from '../Home/Choose/Choose';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
-
+import img1 from './../../Image/Page/IndianSubsidiary /indian-subsidiary-1.png';
+import img2 from './../../Image/Page/IndianSubsidiary /indian-subsidiary-2.png';
+import img3 from './../../Image/Page/IndianSubsidiary /indian-subsidiary-3.png';
+import img4 from './../../Image/Page/IndianSubsidiary /indian-subsidiary-4.png';
+import img5 from './../../Image/Page/IndianSubsidiary /indian-subsidiary-5.png';
+import img6 from './../../Image/Page/IndianSubsidiary /indian-subsidiary-6.png';
 const IndianSubsidiary = () => {
     return (
         <div>
@@ -15,7 +20,7 @@ const IndianSubsidiary = () => {
                     <div class="row">
                         <div class="col-12 col-lg-4 mb-3 m-lg-0">
                             <div class="section-image">
-                                <img src="./img/indian-subsidiary-1.png" alt="" />
+                                <img src={img1} alt="" />
                             </div>
                         </div>
                         <div class="col-12 col-lg-8 mb-3 m-lg-0">
@@ -47,7 +52,7 @@ const IndianSubsidiary = () => {
                         </div>
                         <div class="col-12 col-lg-4 m-lg-0">
                             <div class="section-image">
-                                <img src="./img/indian-subsidiary-2.png" alt="" />
+                                <img src={img2} alt="" />
                             </div>
                         </div>
                     </div>
@@ -55,7 +60,7 @@ const IndianSubsidiary = () => {
                     <div class="row mt-5">
                         <div class="col-12 col-lg-4 mb-3 m-lg-0">
                             <div class="section-image">
-                                <img src="./img/indian-subsidiary-3.png" alt="" />
+                                <img src={img3} alt="" />
                             </div>
                         </div>
                         <div class="col-12 col-lg-8 mb-3 m-lg-0">
@@ -94,7 +99,7 @@ const IndianSubsidiary = () => {
                         </div>
                         <div class="col-12 col-lg-4 m-lg-0">
                             <div class="section-image">
-                                <img src="./img/indian-subsidiary-4.png" alt="" />
+                                <img src={img4} alt="" />
                             </div>
                         </div>
                     </div>
@@ -102,7 +107,7 @@ const IndianSubsidiary = () => {
                     <div class="row mt-5">
                         <div class="col-12 col-lg-4 mb-3 m-lg-0">
                             <div class="section-image">
-                                <img src="./img/indian-subsidiary-5.png" alt="" />
+                                <img src={img5} alt="" />
                             </div>
                         </div>
                         <div class="col-12 col-lg-8 mb-3 m-lg-0">
@@ -145,7 +150,7 @@ const IndianSubsidiary = () => {
                         </div>
                         <div class="col-12 col-lg-4 m-lg-0">
                             <div class="section-image">
-                                <img src="./img/indian-subsidiary-6.png" alt="" />
+                                <img src={img6} alt="" />
                             </div>
                         </div>
                     </div>
