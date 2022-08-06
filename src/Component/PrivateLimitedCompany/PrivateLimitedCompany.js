@@ -1,10 +1,13 @@
 import React from 'react';
 import Choose from '../Home/Choose/Choose';
 import Client from '../Home/Client/Client';
+import PageTitle from '../PageTitle/PageTitle';
 import img from './../../Image/Page/11.png';
 const PrivateLimitedCompany = () => {
     return (
         <div>
+            {/* Private-Limited-Company */}
+            <PageTitle title='Partnership Annual Compliance & Tax Filing '></PageTitle>
             <section class="page-section py-5 bg-light">
                 <div class="container">
                     <div class="page-content">

@@ -24,6 +24,10 @@ import Verification from './Component/Verification/Verification';
 import AccountingServices from './Component/AccountingServices/AccountingServices';
 import IncomeTaxFiling from './Component/IncomeTaxFiling/IncomeTaxFiling';
 import PrivateLimitedCompany from './Component/PrivateLimitedCompany/PrivateLimitedCompany';
+import LimitedLiabilityCompany from './Component/LimitedLiabilityCompany /LimitedLiabilityCompany';
+import OnePersonCompanyRegistration from './Component/OnePersonCompanyRegistration/OnePersonCompanyRegistration';
+import IndianSubsidiary from './Component/IndianSubsidiary /IndianSubsidiary';
+import ProprietorshipTaxFiling from './Component/ProprietorshipTaxFiling /ProprietorshipTaxFiling';
 
 function App() {
   return (
@@ -52,6 +56,10 @@ function App() {
         <Route path='/AccountingServices' element={<AccountingServices></AccountingServices>}></Route>
         <Route path='/IncomeTaxFiling' element={<IncomeTaxFiling></IncomeTaxFiling>}></Route>
         <Route path='/PrivateLimitedCompany' element={<PrivateLimitedCompany></PrivateLimitedCompany>}></Route>
+        <Route path='/LimitedLiabilityCompany' element={<LimitedLiabilityCompany></LimitedLiabilityCompany>}></Route>
+        <Route path='/OnePersonCompanyRegistration' element={<OnePersonCompanyRegistration></OnePersonCompanyRegistration>}></Route>
+        <Route path='/IndianSubsidiary' element={<IndianSubsidiary></IndianSubsidiary>}></Route>
+        <Route path='/ProprietorshipTaxFiling' element={<ProprietorshipTaxFiling></ProprietorshipTaxFiling>}></Route>
       </Routes>
       <Footer></Footer>
     </>
