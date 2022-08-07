@@ -1,5 +1,4 @@
 import React from 'react';
-import './Footer.css'
 const Footer = () => {
     return (
         <>
@@ -111,6 +110,8 @@ const Footer = () => {
                     <p class="text-center">© Acountier 2022. All Rights Reserved</p>
                 </div>
             </footer>
+
+
         </>
     );
 };

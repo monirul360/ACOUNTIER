@@ -96,7 +96,7 @@ input[type="submit"]:focus {
 }
 
 .header .header-logo img {
-  width: 100px;
+  width: 160px;
 }
 
 .header .header-menu .header-navbar ul {
@@ -184,9 +184,15 @@ input[type="submit"]:focus {
 }
 
 .hero .hero-text .text-box .hero-button {
+  width: 170px;
+  padding: 15px;
   color: #35b0e1;
   font-weight: 500;
   font-size: 12px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .hero .hero-form .form-box {
@@ -248,15 +254,19 @@ input[type="submit"]:focus {
 }
 
 .whoWeAre .text-box .section-button {
-  padding: 8px 20px;
-  font-size: 12px;
-  font-weight: 500;
+  width: 170px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px;
   background-color: #35b0e1;
   color: #fff;
 }
 
 .whoWeAre .text-box .section-button:hover {
-  padding: 7px 19px;
+  width: 170px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px;
   color: #35b0e1;
   border: 1px solid #35b0e1;
   background-color: #fff;
@@ -287,25 +297,32 @@ input[type="submit"]:focus {
 }
 
 .services .services-content .services-box {
-  background: #fff;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  background: #F5F5F5;
+  /* -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+  border: 1px solid rgba(221, 221, 221, 0.5);
   padding: 20px;
   margin: 0px 30px;
   border-radius: 10px;
   text-align: center;
 }
 
-.services .services-content .services-box .services-icon {
-  width: 60px;
-  height: 60px;
-  border: 1px solid #35b0e1;
-  border-radius: 100%;
+#service-select {
+  background-color: #35b0e1;
+  color: #FFFFFF;
 }
 
-.services .services-content .services-box .services-icon i {
-  font-size: 25px;
-  color: #35b0e1;
+.services .services-content .services-box .services-icon {
+  width: 82px;
+  height: 82px;
+  padding: 15px;
+  border: 1px solid #33B1E1;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.services .services-content .services-box .services-icon img {
+  width: 100%;
 }
 
 .services .services-content .services-box .services-title {
@@ -320,6 +337,10 @@ input[type="submit"]:focus {
 
 .services .services-content .services-box:hover {
   background: #35b0e1;
+}
+
+#service-three {
+  background-color: white;
 }
 
 .services .services-content .services-box:hover .services-icon {
@@ -366,27 +387,18 @@ input[type="submit"]:focus {
 }
 
 .choose-us .choose-content .box-item .box-icon {
-  width: 60px !important;
-  height: 60px !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 1px solid #fff;
+  width: 80px;
+  height: 60px;
+  padding: 10px;
   background-color: #fff;
-  border-radius: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.choose-us .choose-content .box-item .box-icon i {
-  width: 60px !important;
-  text-align: center;
-  font-size: 25px;
-  color: #35b0e1;
+.choose-us .choose-content .box-item .box-icon img {
+  width: 40px;
 }
 
 .choose-us .choose-content .box-item .box-text {

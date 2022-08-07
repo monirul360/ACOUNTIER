@@ -1,5 +1,8 @@
 import React from 'react';
 import choose from './../../../Image/Home/Rectangle 1605.png';
+import icon1 from './../../../Image/icons/7.png';
+import icon2 from './../../../Image/icons/8.png';
+import icon3 from './../../../Image/icons/9.png';
 const Choose = () => {
     return (
         <div>
@@ -20,7 +23,7 @@ const Choose = () => {
                             </div>
                             <div class="box-item">
                                 <div class="box-icon">
-                                    <i class="fa fa-github"></i>
+                                    <img src={icon1} alt="" />
                                 </div>
                                 <div class="box-text">
                                     <h5>Expert Professionals </h5>
@@ -31,7 +34,7 @@ const Choose = () => {
                             </div>
                             <div class="box-item my-3">
                                 <div class="box-icon">
-                                    <i class="fa fa-behance"></i>
+                                    <img src={icon2} alt="" />
                                 </div>
                                 <div class="box-text">
                                     <h5>Customer Support</h5>
@@ -42,7 +45,7 @@ const Choose = () => {
                             </div>
                             <div class="box-item">
                                 <div class="box-icon">
-                                    <i class="fa fa-support"></i>
+                                    <img src={icon3} alt="" />
                                 </div>
                                 <div class="box-text">
                                     <h5>Unbiased Approach</h5>

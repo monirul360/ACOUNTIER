@@ -17,7 +17,7 @@ const Hero = () => {
                                 <p class="hero-description py-4">
                                     ACOINTIER is a technology backed up Accounting and Legal Service Firm providing the Services for the Small Businesses, Start-up Firms, Large Businesses and Corporate Companies across India and USA.
                                 </p>
-                                <Link to='/' class="hero-button btn bg-white" href="#">Discover Us</Link>
+                                <Link to='/Aboutus' class="hero-button btn bg-white" href="#">Discover Us</Link>
                             </div>
                         </div>
                         <div class="hero-form col-lg-6 col-12 py-4 py-lg-0">

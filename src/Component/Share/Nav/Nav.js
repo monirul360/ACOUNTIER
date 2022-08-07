@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './../../../Image/Home/logo.png';
 import './../../../App.css';
+import Login from '../../Login/Login';
+import Signup from '../../Signup/Signup';
 const Nav = () => {
     return (
         <>
@@ -23,12 +25,14 @@ const Nav = () => {
                                 <li><Link to='/'>US Service</Link></li>
                                 <li><Link to='/'>Blog</Link></li>
                                 <li><Link to='/'>Contact</Link></li>
-                                <li class="login"><Link to='/login'>Login</Link></li>
+                                <li class="login" ><a href="javascript:void()" data-bs-toggle="modal" data-bs-target="#login-modal">Login</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
             </header>
+            <Login></Login>
+            <Signup></Signup>
         </>
     );
 };

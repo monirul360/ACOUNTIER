@@ -1,4 +1,10 @@
 import React from 'react';
+import icon1 from './../../../Image/icons/1.png';
+import icon2 from './../../../Image/icons/2.png';
+import icon3 from './../../../Image/icons/3.png';
+import icon4 from './../../../Image/icons/4.png';
+import icon5 from './../../../Image/icons/5.png';
+import icon6 from './../../../Image/icons/6.png';
 const Service = () => {
     return (
         <div>
@@ -13,7 +19,7 @@ const Service = () => {
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="services-box">
                                 <div class="services-icon">
-                                    <i class="fa fa-vcard-o"></i>
+                                    <img src={icon1} alt="" />
                                 </div>
                                 <h4 class="services-title">
                                     Company Registration anywhere in india
@@ -25,9 +31,9 @@ const Service = () => {
                         </div>
 
                         <div class="col-12 col-md-6 col-lg-4 mt-md-5">
-                            <div class="services-box bg-primary text-white">
-                                <div class="services-icon">
-                                    <i class="fa fa-behance"></i>
+                            <div id='service-select' class="services-box ">
+                                <div id='service-three' class="services-icon ">
+                                    <img src={icon2} alt="" />
                                 </div>
                                 <h4 class="services-title">
                                     Trademark & Copyrights
@@ -41,7 +47,7 @@ const Service = () => {
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="services-box">
                                 <div class="services-icon">
-                                    <i class="fa fa-bookmark-o"></i>
+                                    <img src={icon3} alt="" />
                                 </div>
                                 <h4 class="services-title">
                                     Tax Registrations
@@ -55,7 +61,7 @@ const Service = () => {
                         <div class="col-12 col-md-6 col-lg-4 mt-md-5 mt-lg-0">
                             <div class="services-box">
                                 <div class="services-icon">
-                                    <i class="fa fa-book"></i>
+                                    <img src={icon4} alt="" />
                                 </div>
                                 <h4 class="services-title">
                                     Legal Documentations
@@ -69,7 +75,7 @@ const Service = () => {
                         <div class="col-12 col-md-6 col-lg-4 mt-lg-5">
                             <div class="services-box">
                                 <div class="services-icon">
-                                    <i class="fa fa-magic"></i>
+                                    <img src={icon5} alt="" />
                                 </div>
                                 <h4 class="services-title">
                                     NGO Registration Services in India
@@ -80,10 +86,10 @@ const Service = () => {
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-6 col-lg-4 mt-md-5">
+                        <div class="col-12 col-md-6 col-lg-4 mt-md-3">
                             <div class="services-box">
                                 <div class="services-icon">
-                                    <i class="fa fa-calculator"></i>
+                                    <img src={icon6} alt="" />
                                 </div>
                                 <h4 class="services-title">
                                     Bookkeeping & Taxation Services for USA                                </h4>

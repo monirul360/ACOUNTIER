@@ -29,6 +29,8 @@ import OnePersonCompanyRegistration from './Component/OnePersonCompanyRegistrati
 import IndianSubsidiary from './Component/IndianSubsidiary /IndianSubsidiary';
 import ProprietorshipTaxFiling from './Component/ProprietorshipTaxFiling /ProprietorshipTaxFiling';
 import Error from './Component/Error/Error';
+import ProprietorshipFirm from './Component/ProprietorshipFirm/ProprietorshipFirm';
+import PrivateLimitedCompanyRegistration from './Component/PrivateLimitedCompanyRegistration/PrivateLimitedCompanyRegistration';
 
 function App() {
   return (
@@ -61,6 +63,8 @@ function App() {
         <Route path='/OnePersonCompanyRegistration' element={<OnePersonCompanyRegistration></OnePersonCompanyRegistration>}></Route>
         <Route path='/IndianSubsidiary' element={<IndianSubsidiary></IndianSubsidiary>}></Route>
         <Route path='/ProprietorshipTaxFiling' element={<ProprietorshipTaxFiling></ProprietorshipTaxFiling>}></Route>
+        <Route path='/PrivateLimitedCompanyRegistration' element={<PrivateLimitedCompanyRegistration></PrivateLimitedCompanyRegistration>}></Route>
+        <Route path='/ProprietorshipFirm' element={<ProprietorshipFirm></ProprietorshipFirm>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
       </Routes>
       <Footer></Footer>
