@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Choose from '../Home/Choose/Choose';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
@@ -88,7 +89,7 @@ const Aboutus = () => {
                     <div class="row">
                         <div class="col-12 col-md-6 mb-4">
                             <div class="services-content d-flex justify-content-between align-items-center p-3">
-                                <h4>Company Registration</h4>
+                                <Link to='/'><h4>Company Registration</h4></Link>
                                 <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>
