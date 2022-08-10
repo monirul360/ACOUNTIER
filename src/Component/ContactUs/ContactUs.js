@@ -33,29 +33,27 @@ const ContactUs = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="row d-flex justify-content-center align-items-center m-5">
-                        <div className="col-md-6">
-                            <div className='m-5 mt-4'>
-                                <div class="footer-contact-icon">
-                                    <i class="fa fa-phone"></i>
-                                </div>
-                                <div class="contact-text">
-                                    <span>Have a Question?</span>
-                                    <p>+91 9980655355</p>
-                                </div>
+                </div>
+            </section>
+            <section>
+                <div className="container">
+                    <div className="contactus-socail">
+                        <div className='contactus-box'>
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="contactus-text">
+                                <span>Have a Question?</span>
+                                <p>+91 9980655355</p>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="m-5 mt-4">
-                                <div class="footer-contact mt-3">
-                                    <div class="footer-contact-icon">
-                                        <i class="fa fa-envelope-o"></i>
-                                    </div>
-                                    <div class="contact-text">
-                                        <span>Contact us at</span>
-                                        <p>info@acountier.com</p>
-                                    </div>
-                                </div>
+                        <div className='contactus-box'>
+                            <div class="icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="contactus-text">
+                                <span>Contact us at</span>
+                                <p>info@acountier.com</p>
                             </div>
                         </div>
                     </div>

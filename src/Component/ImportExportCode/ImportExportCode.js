@@ -2,13 +2,13 @@ import React from 'react';
 import Choose from '../Home/Choose/Choose';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
-import img from './../../Image/Nidhicompany/nidhi.png';
+import img from './../../Image/Page/18.png';
 const ImportExportCode = () => {
     return (
         <div>
             {/* Import-Export-Code */}
             <PageTitle title='Import & Export Code'></PageTitle>
-            <section class="page-section py-5 bg-light">
+            <section class="page-section bg-light">
                 <div class="container">
                     <div class="page-content">
                         <div class="page-content-image">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import img from './../../Image/Home/whoweare.png';
-import modalimg from './../../Image/Page/15.png';
+import modalimg from './../../Image/Page/signup.png';
 const Signup = () => {
     const handlesubmit = event => {
         event.preventDefault()
@@ -107,7 +107,7 @@ const Signup = () => {
                                                 <div class="code-resend">
                                                     <p>
                                                         Do you want to resend code?
-                                                        <a href="#">Resend Code</a>
+                                                        <Link to="#">Resend Code</Link>
                                                     </p>
                                                 </div>
                                             </div>

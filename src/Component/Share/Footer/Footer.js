@@ -5,7 +5,7 @@ const Footer = () => {
         <>
 
             {/* <Footer  */}
-            <footer class="footer pt-5">
+            <footer class="footer ">
                 <div class="container">
                     <div class="footer-top row">
                         <div class="footer-1 col-12 col-sm-8 col-md-5 col-lg-5 mb-3 mb-md-0">
@@ -105,6 +105,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+                    <br /><br /><br /><br />
                 </div>
 
                 <div class="footer-bottom py-3 mt-3">

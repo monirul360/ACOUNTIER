@@ -2,7 +2,7 @@ import React from 'react';
 import Choose from '../Home/Choose/Choose';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
-
+import img from './../../Image/Page/22.png';
 const ProprietorshipTaxFiling = () => {
     return (
         <div>
@@ -13,7 +13,7 @@ const ProprietorshipTaxFiling = () => {
                 <div class="container">
                     <div class="page-content">
                         <div class="page-content-image">
-                            <img class="img-fluid" src="./img/tax-return.png" alt="" />
+                            <img class="img-fluid" src={img} alt="" />
                         </div>
                         <div class="page-content-text mt-5">
                             <h2 class="page-content-title">Proprietorship Tax Filing</h2>

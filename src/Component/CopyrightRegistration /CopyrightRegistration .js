@@ -1,5 +1,5 @@
 import React from 'react';
-import img from './../../Image/Nidhicompany/nidhi.png';
+import img from './../../Image/Page/20.png';
 const CopyrightRegistration = () => {
     return (
         <div>

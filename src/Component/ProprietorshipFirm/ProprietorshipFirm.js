@@ -1,11 +1,12 @@
 import React from 'react';
 import PageTitle from '../PageTitle/PageTitle';
-
+import imgone from './../../Image/Page/25.png';
+import imgtwo from './../../Image/Page/26.png';
 const ProprietorshipFirm = () => {
     return (
         <div>
             {/*  Proprietorship-Firm*/}
-            <PageTitle PageTitle='Proprietorship Company'></PageTitle>
+            <PageTitle title='Proprietorship Company'></PageTitle>
             {/* Page Post Section  */}
             <section class="page-post-section py-5">
                 <div class="container">
@@ -13,7 +14,7 @@ const ProprietorshipFirm = () => {
                     <div class="row">
                         <div class="col-12 col-lg-4 mb-3 m-lg-0">
                             <div class="section-image">
-                                <img src="./img/proprietorship-firm-1.png" alt="" />
+                                <img src={imgone} alt="" />
                             </div>
                         </div>
                         <div class="col-12 col-lg-8 mb-3 m-lg-0">
@@ -52,7 +53,7 @@ const ProprietorshipFirm = () => {
                         </div>
                         <div class="col-12 col-lg-4 m-lg-0">
                             <div class="section-image">
-                                <img src="./img/proprietorship-firm-2.png" alt="" />
+                                <img src={imgtwo} alt="" />
                             </div>
                         </div>
                     </div>

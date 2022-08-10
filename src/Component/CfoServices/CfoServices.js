@@ -2,7 +2,7 @@ import React from 'react';
 import Choose from '../Home/Choose/Choose';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
-import img from './../../Image/Nidhicompany/nidhi.png';
+import img from './../../Image/Page/24.png';
 const CfoServices = () => {
     return (
         <div>

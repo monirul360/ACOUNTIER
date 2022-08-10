@@ -1,6 +1,6 @@
 import React from 'react';
 import PageTitle from '../PageTitle/PageTitle';
-import img from './../../Image/Nidhicompany/nidhi.png';
+import img from './../../Image/Page/4.png';
 const DigitalSignature = () => {
     return (
         <div>

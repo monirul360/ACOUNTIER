@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img from './../../Image/Home/Rectangle 1605.png';
+import img from './../../Image/Page/login.png';
 import './Login.css';
 const Login = () => {
     return (

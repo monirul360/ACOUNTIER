@@ -3,7 +3,7 @@ import Choose from '../Home/Choose/Choose';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
 import img from './../../Image/Page/11.png';
-const PrivateLimitedCompany = () => {
+const PrivateLimitedCompanyTaxFiling = () => {
     return (
         <div>
             {/* Private-Limited-Company */}
@@ -94,4 +94,4 @@ const PrivateLimitedCompany = () => {
     );
 };
 
-export default PrivateLimitedCompany;
+export default PrivateLimitedCompanyTaxFiling;

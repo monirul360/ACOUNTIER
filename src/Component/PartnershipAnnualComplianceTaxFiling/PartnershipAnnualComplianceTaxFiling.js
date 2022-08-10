@@ -2,8 +2,8 @@ import React from 'react';
 import Choose from '../Home/Choose/Choose';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
-import img from './../../Image/Nidhicompany/nidhi.png';
-const Partnershiptax = () => {
+import img from './../../Image/Page/9.png';
+const PartnershipAnnualComplianceTaxFiling = () => {
     return (
         <div>
             {/* Partnershiptax */}
@@ -15,7 +15,9 @@ const Partnershiptax = () => {
                             <img class="img-fluid" src={img} alt="" />
                         </div>
                         <div class="page-content-text mt-5">
-                            <h2 class="page-content-title">Partnership Annual Compliance & Tax Filing </h2>
+                            <h2 class="page-content-title">
+                                Partnership Annual Compliance & Tax Filing
+                            </h2>
                             <p>
                                 ACOUNTIER will be preparing the Financial Statement with one Year of Income Tax Filing and Annual Returns Filing. A partnership
                                 Firm is a Business where more than one person will be Involved as a Stake Holder of the Company. The Partnership Firm is the
@@ -81,4 +83,4 @@ const Partnershiptax = () => {
     );
 };
 
-export default Partnershiptax;
+export default PartnershipAnnualComplianceTaxFiling;
