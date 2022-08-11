@@ -8,7 +8,7 @@ const CfoServices = () => {
         <div>
             {/* CFO-Services */}
             <PageTitle title='CFO Services'></PageTitle>
-            <section class="page-section py-5 bg-light">
+            <section class="page-section  bg-light">
                 <div class="container">
                     <div class="page-content">
                         <div class="page-content-image">
@@ -27,7 +27,7 @@ const CfoServices = () => {
                             <h3>Benefits of CFO Consulting Services</h3>
                             <p>Our dedicated team of corporate tax specialists can help you comply with all your regular corporate tax compliance requirements
                                 at the Federal and State levels. Our services in this area are detailed below:</p>
-                            <ul className='p-4'>
+                            <ul className='px-4'>
                                 <li>Understand your cash glide and projections.</li>
                                 <li>Develop actual wealth for your company</li>
                                 <li>Protect profits, appoint at the proper time and manipulate costs</li>

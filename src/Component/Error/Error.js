@@ -6,7 +6,7 @@ const Error = () => {
             <div className="container">
                 <div className="error">
                     <div>
-                        <h1 className='text-danger'>404</h1>
+                        <h1>404</h1>
                         <p className='lead'>Page not found</p>
                     </div>
                 </div>

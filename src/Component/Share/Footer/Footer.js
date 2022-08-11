@@ -5,10 +5,11 @@ const Footer = () => {
         <>
 
             {/* <Footer  */}
-            <footer class="footer ">
+
+            <footer class="footer section-padding-top">
                 <div class="container">
                     <div class="footer-top row">
-                        <div class="footer-1 col-12 col-sm-8 col-md-5 col-lg-5 mb-3 mb-md-0">
+                        <div class="footer-1 col-12 col-sm-8 col-md-6 col-lg-5">
                             <div class="footer-item">
                                 <div class="footer-header">
                                     <h5>Our Location</h5>
@@ -24,33 +25,33 @@ const Footer = () => {
                                 <div class="footer-one-icon">
                                     <ul>
                                         <li>
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><img src='/' alt="facebook" /></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                            <a href="#"><img src="./img/vector/youtube.svg" alt="youtube" /></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-instagram"></i></a>
+                                            <a href="#"><img src="./img/vector/dribbble.svg" alt="dribbble" /></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                                            <a href="#"><img src="./img/vector/figma.svg" alt="figma" /></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                            <a href="#"><img src="./img/vector/whatsapp.svg" alt="whatsapp" /></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="footer-2 col-12 col-sm-4 col-md-2 col-lg-2 mb-3 mb-md-0">
+                        <div class="footer-2 col-12 col-sm-4 col-md-6 col-lg-2">
                             <div class="footer-item">
                                 <div class="footer-header">
                                     <h5>About</h5>
                                 </div>
                                 <div class="footer-content">
                                     <ul>
-                                        <li><Link to="/aboutus">About us</Link></li>
+                                        <li><a href="#">About us</a></li>
                                         <li><a href="#">Blog</a></li>
                                         <li><a href="#">Careers</a></li>
                                         <li><a href="#">Jobs</a></li>
@@ -60,14 +61,14 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div class="footer-3 col-12 col-sm-6 col-md-2 col-lg-2 mb-3 mb-md-0">
+                        <div class="footer-3 col-12 col-sm-6 col-md-6 col-lg-2">
                             <div class="footer-item">
                                 <div class="footer-header">
                                     <h5>Supprt</h5>
                                 </div>
                                 <div class="footer-content">
                                     <ul>
-                                        <li><Link to="/ContactUs">Contact us</Link></li>
+                                        <li><a href="#">Contact us</a></li>
                                         <li><a href="#">Online Chat</a></li>
                                         <li><a href="#">Whatsapp</a></li>
                                         <li><a href="#">Telegram</a></li>
@@ -77,7 +78,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div class="footer-4 col-12 col-sm-6 col-md-3 col-lg-3 mb-3 mb-md-0">
+                        <div class="footer-4 col-12 col-sm-6 col-md-6 col-lg-3">
                             <div class="footer-item">
                                 <div class="footer-header">
                                     <h5>Contact</h5>
@@ -85,16 +86,16 @@ const Footer = () => {
                                 <div class="footer-content">
                                     <div class="footer-contact">
                                         <div class="footer-contact-icon">
-                                            <i class="fa fa-phone"></i>
+                                            <img src="./img/vector/call-calling.svg" alt="" />
                                         </div>
                                         <div class="contact-text">
                                             <span>Have a Question?</span>
                                             <p>+91 9980655355</p>
                                         </div>
                                     </div>
-                                    <div class="footer-contact mt-3">
+                                    <div class="footer-contact">
                                         <div class="footer-contact-icon">
-                                            <i class="fa fa-envelope-o"></i>
+                                            <img src="./img/vector/sms.svg" alt="" />
                                         </div>
                                         <div class="contact-text">
                                             <span>Contact us at</span>
@@ -105,14 +106,12 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <br /><br /><br /><br />
                 </div>
 
-                <div class="footer-bottom py-3 mt-3">
-                    <p class="text-center">© Acountier 2022. All Rights Reserved</p>
+                <div class="footer-bottom">
+                    <p class="text-center">© ACOUNTIER 2022. All Rights Reserved</p>
                 </div>
             </footer>
-
 
         </>
     );

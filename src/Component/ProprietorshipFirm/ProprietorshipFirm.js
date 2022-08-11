@@ -8,7 +8,7 @@ const ProprietorshipFirm = () => {
             {/*  Proprietorship-Firm*/}
             <PageTitle title='Proprietorship Company'></PageTitle>
             {/* Page Post Section  */}
-            <section class="page-post-section py-5">
+            <section class="page-post-section ">
                 <div class="container">
                     {/* 1st Part  */}
                     <div class="row">

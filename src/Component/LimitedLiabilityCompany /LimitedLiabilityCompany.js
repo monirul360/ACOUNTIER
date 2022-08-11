@@ -8,7 +8,7 @@ const LimitedLiabilityCompany = () => {
         <div>
             {/*  */}
             <PageTitle title='Limited Liability Company'></PageTitle>
-            <section class="page-section py-5 bg-light">
+            <section class="page-section  bg-light">
                 <div class="container">
                     <div class="page-content">
                         <div class="page-content-image">
@@ -30,17 +30,18 @@ const LimitedLiabilityCompany = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-            {/* Site Promotion  */}
-            <section class="promotion-section bg-light pb-5">
-                <div class="container">
-                    <div class="promotion-content">
-                        <p>
-                            Connect with ACOUNTIER to Register your Company as a Limited Liability Company.
-                        </p>
+                {/* Site Promotion  */}
+                <div class="promotion-section bg-light ">
+                    <div class="container">
+                        <div class="promotion-content">
+                            <p>
+                                Connect with ACOUNTIER to Register your Company as a Limited Liability Company.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
+
             <Choose></Choose>
             <Client></Client>
         </div >

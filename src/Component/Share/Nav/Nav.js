@@ -14,34 +14,6 @@ const Nav = () => {
     const [doubleNavThree, setdoubleNavThree] = useState(false);
     const [service, setservice] = useState(false);
 
-
-
-    // doubleNavThree.addEventListener('click', () => {
-    //     doubleSubThree.classList.toggle('sub-nav-show');
-    //     doubleSubThree.classList.toggle('sub-nav-hide');
-    //     doubleIconThree.classList.toggle('fa-caret-up');
-    //     doubleIconThree.classList.toggle('fa-caret-down');
-    // });
-    // doubleNavFour.addEventListener('click', () => {
-    //     doubleSubFour.classList.toggle('sub-nav-show');
-    //     doubleSubFour.classList.toggle('sub-nav-hide');
-    //     doubleIconFour.classList.toggle('fa-caret-up');
-    //     doubleIconFour.classList.toggle('fa-caret-down');
-    // });
-    // doubleNavFive.addEventListener('click', () => {
-    //     doubleSubFive.classList.toggle('sub-nav-show');
-    //     doubleSubFive.classList.toggle('sub-nav-hide');
-    //     doubleIconFive.classList.toggle('fa-caret-up');
-    //     doubleIconFive.classList.toggle('fa-caret-down');
-    // });
-    // doubleNavSix.addEventListener('click', () => {
-    //     doubleSubSix.classList.toggle('sub-nav-show');
-    //     doubleSubSix.classList.toggle('sub-nav-hide');
-    //     doubleIconSix.classList.toggle('fa-caret-up');
-    //     doubleIconSix.classList.toggle('fa-caret-down');
-    // });
-
-
     return (
         <>
             {/* Header Section  */}
@@ -82,7 +54,7 @@ const Nav = () => {
                                                 <li><Link to="/">Partnership Company </Link></li>
                                                 <li><Link to="/OnePersonCompanyRegistration">One Person Company</Link></li>
                                                 <li><Link to="/LimitedLiabilityCompany">Limited Liability Company</Link></li>
-                                                <li><Link to="/PrivateLimitedCompany">Private Limited Company</Link></li>
+                                                <li><Link to="/PrivateLimitedCompanyRegistration">Private Limited Company</Link></li>
                                             </ul>
                                         </li>
                                         <li class="sub-nav double-nav-two">
@@ -145,7 +117,7 @@ const Nav = () => {
                                                 ></Link>
                                             <ul class={`sub-sub-menu double-sub-six sub-nav-hide ${doubleNavThree ? 'sub-nav-show' : 'sub-nav-hide'}`}>
                                                 <li><Link to="/ProprietorshipTaxFiling">Proprietorship Tax Filing</Link></li>
-                                                <li><Link to="/Partnershiptax">Partnership Tax Filing</Link></li>
+                                                <li><Link to="/ProprietorshipFirm">Partnership Tax Filing</Link></li>
                                                 <li><a href="#">Company Tax Filing</a></li>
                                             </ul>
                                         </li>
@@ -166,8 +138,8 @@ const Nav = () => {
                                         <li><Link to="/PayrollServices">Payroll Services</Link></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><Link to="#">Blog</Link></li>
+                                <li><Link to="/ContactUs">Contact</Link></li>
                                 <li class="login"><Link to="/login">Login</Link></li>
                             </ul>
                         </nav>

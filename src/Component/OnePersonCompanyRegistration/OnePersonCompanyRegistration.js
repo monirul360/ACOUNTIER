@@ -8,7 +8,7 @@ const OnePersonCompanyRegistration = () => {
         <div>
             {/* One-Person-Company-Registration */}
             <PageTitle title='One Person Company Registration'></PageTitle>
-            <section class="page-section py-5 bg-light">
+            <section class="page-section  bg-light">
                 <div class="container">
                     <div class="page-content">
                         <div class="page-content-image">
@@ -31,18 +31,18 @@ const OnePersonCompanyRegistration = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-
-            {/* Site Promotion  */}
-            <section class="promotion-section bg-light pb-5">
-                <div class="container">
-                    <div class="promotion-content">
-                        <p>
-                            Are you Looking to Register the One Person Company (OPC)? Connect with ACOUNTIER.
-                        </p>
+                {/* Site Promotion  */}
+                <div class="promotion-section bg-light ">
+                    <div class="container">
+                        <div class="promotion-content">
+                            <p>
+                                Are you Looking to Register the One Person Company (OPC)? Connect with ACOUNTIER.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
+
             <Choose></Choose>
             <Client></Client>
         </div>

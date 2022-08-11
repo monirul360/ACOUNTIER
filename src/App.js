@@ -60,7 +60,7 @@ function App() {
         <Route path='/ContactUs' element={<ContactUs></ContactUs>}></Route>
         <Route path='/AccountingServices' element={<AccountingServices></AccountingServices>}></Route>
         <Route path='/IncomeTaxFiling' element={<IncomeTaxFiling></IncomeTaxFiling>}></Route>
-        <Route path='/PrivateLimitedCompany'
+        <Route path='/PrivateLimitedCompanyTaxFiling'
           element={
             <PrivateLimitedCompanyTaxFiling></PrivateLimitedCompanyTaxFiling>
           }>

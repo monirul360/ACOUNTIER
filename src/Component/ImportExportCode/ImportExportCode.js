@@ -8,7 +8,7 @@ const ImportExportCode = () => {
         <div>
             {/* Import-Export-Code */}
             <PageTitle title='Import & Export Code'></PageTitle>
-            <section class="page-section bg-light">
+            <section class="page-section  bg-light">
                 <div class="container">
                     <div class="page-content">
                         <div class="page-content-image">

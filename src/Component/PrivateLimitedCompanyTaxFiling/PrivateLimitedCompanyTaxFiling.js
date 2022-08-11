@@ -8,7 +8,7 @@ const PrivateLimitedCompanyTaxFiling = () => {
         <div>
             {/* Private-Limited-Company */}
             <PageTitle title='Partnership Annual Compliance & Tax Filing '></PageTitle>
-            <section class="page-section py-5 bg-light">
+            <section class="page-section  bg-light">
                 <div class="container">
                     <div class="page-content">
                         <div class="page-content-image">
@@ -78,7 +78,7 @@ const PrivateLimitedCompanyTaxFiling = () => {
                                 should be conducted every 3 months where at least 2 directors of the company should be present in the meeting.
                             </p>
                             <h4>Allowed Deductibles</h4>
-                            <ul className='m-4'>
+                            <ul className='mx-4'>
                                 <li>Renumerations paid to the partners of the Firm which is not registered.</li>
                                 <li>Renumeration Or Salaries paid to the non-working partners of the Company.</li>
                                 <li>If the Renumerations were made on the Partnerships, The date of the Partnership signed will be taken in the Consideration

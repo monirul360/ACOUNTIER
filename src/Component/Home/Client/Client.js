@@ -8,7 +8,7 @@ const Client = () => {
     return (
         <div>
             {/* Client Logo Section  */}
-            <section class="client bg-white py-5 d-none d-sm-block d-none d-sm-block">
+            <section class="client bg-white py-5 py-lg-0">
                 <div class="container">
                     <div class="clint-logo">
                         <ul>
@@ -16,7 +16,9 @@ const Client = () => {
                             <li><img src={client2} alt="" /></li>
                             <li><img src={client3} alt="" /></li>
                             <li><img src={client4} alt="" /></li>
-                            <li><img src={client5} alt="" /></li>
+                            <li class="d-sm-none d-md-block">
+                                <img src={client5} alt="" />
+                            </li>
                         </ul>
                     </div>
                 </div>

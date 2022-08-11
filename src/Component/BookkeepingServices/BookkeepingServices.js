@@ -8,7 +8,7 @@ const BookkeepingServices = () => {
         <div>
             {/* Bookkeeping-Services */}
             <PageTitle title='Bookkeeping Services'></PageTitle>
-            <section class="page-section py-5 bg-light">
+            <section class="page-section  bg-light">
                 <div class="container">
                     <div class="page-content">
                         <div class="page-content-image">

@@ -8,7 +8,7 @@ const FssaiRegistration = () => {
         <div>
             {/* Fssai-Registration */}
             <PageTitle title='FSSAI Registration'></PageTitle>
-            <section class="page-section py-5 bg-light">
+            <section class="page-section  bg-light">
                 <div class="container">
                     <div class="page-content">
                         <div class="page-content-image">
@@ -37,7 +37,7 @@ const FssaiRegistration = () => {
                                 licence should be submitted to the relevant Licensing Authority along with the required self-attested statement, affidavit, and
                                 annexures, where necessary.</p>
                             <h3>Documents Required for FSSAI</h3>
-                            <ul className='p-4'>
+                            <ul className='px-4'>
                                 <li>Photograph of a food industry operator.</li>
                                 <li>Ration cards, voter identification cards, PAN cards, driving licences, passports, Aadhar cards, senior citizen cards, and
                                     department-issued IDs are examples of documents that serve as identity proof.</li>
