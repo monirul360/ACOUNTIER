@@ -132,7 +132,6 @@ const Nav = () => {
                                     </Link>
                                     <ul class={`sub-menu single-sub-two sub-nav-hide ${service ? 'sub-nav-show' : 'sub-nav-hide'}`}>
                                         <li><Link to="/AccountingServices">Accounting Services</Link></li>
-                                        <li><Link to="/USATaxAdvice">Tax Advice</Link></li>
                                         <li><Link to="/BookkeepingServices">Bookkeeping Services</Link></li>
                                         <li><Link to="/CfoServices">CFO Services</Link></li>
                                         <li><Link to="/PayrollServices">Payroll Services</Link></li>

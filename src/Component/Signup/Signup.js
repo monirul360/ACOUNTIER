@@ -67,9 +67,6 @@ const Signup = () => {
                 </div>
             </section>
 
-
-
-
             {/* verification modal */}
             <section id="verification-modal" class="modal">
                 <div class="container">
