@@ -10,7 +10,7 @@ const PrivateLimitedCompanyRegistration = () => {
             <PageTitle title='Private Limited Company Registration'></PageTitle>
 
             {/* Page Post Section  */}
-            <section class="page-post-section py-5">
+            <section class="page-post-section section-padding">
                 <div class="container">
                     {/* 1st Part  */}
                     <div class="row">
@@ -164,7 +164,7 @@ const PrivateLimitedCompanyRegistration = () => {
             </section>
 
             {/* Site Promotion  */}
-            <section class="promotion-section pb-5">
+            <section class="promotion-section section-padding-bottom">
                 <div class="container">
                     <div class="promotion-content">
                         <p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import choose from './../../../Image/Home/Rectangle 1605.png';
+import choose from './../../../Image/Home/choose-with-border.png';
 import icon1 from './../../../Image/icons/7.png';
 import icon2 from './../../../Image/icons/8.png';
 import icon3 from './../../../Image/icons/9.png';

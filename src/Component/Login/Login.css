@@ -145,6 +145,10 @@
     margin: 100px 0;
 }
 
+.article-margin-top {
+    margin-top: 100px;
+}
+
 .page-section .page-content .page-content-image img {
     border-radius: 10px;
 }
@@ -377,9 +381,10 @@
 }
 
 .private-ltd-company .section-item .item-box {
-    height: 92px;
+
+    height: 110px;
     margin-bottom: 30px;
-    padding: 18px;
+    padding: 15px;
     border: 1px solid #dddddd;
     border-radius: 10px;
 }
@@ -671,45 +676,4 @@
 .error p {
     font-family: inter;
     font-size: 24px;
-}
-
-
-/* change code*/
-
-/*Footer Section*/
-.footer {
-    background: #f4f2ff;
-    padding-top: 100px;
-}
-
-.choose-us {
-    background: #35b0e1;
-    padding: 100px 0;
-}
-
-.choose-us .choose-content .box-item .box-icon {
-    width: 80px;
-    height: 73px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #fff;
-    background-color: #fff;
-    border-radius: 50%;
-}
-
-.choose-us .choose-content .box-item .box-icon img {
-    width: 50px;
-}
-
-.footer .footer-1 .footer-item .footer-content p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #666;
-}
-
-.footer-bottom-logo {
-    color: #33B1E1;
 }

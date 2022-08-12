@@ -12,6 +12,10 @@ body {
 
 @import url("https://rsms.me/inter/inter.css");
 
+a {
+  text-decoration: none;
+}
+
 img {
   width: 100%;
 }
@@ -944,6 +948,16 @@ input[type="submit"]:focus {
   line-height: 27px;
 }
 
+.services-about .services-content link,
+.services-about .services-content a {
+  color: #000000;
+}
+
+.services-about .services-content link:hover,
+.services-about .services-content a:hover {
+  color: #33b1e1;
+}
+
 .services-about .services-content i {
   font-size: 30px;
 }
@@ -1537,7 +1551,7 @@ input[type="submit"]:focus {
     width: 130px;
   }
 
-  /*Common CSS*/
+  /*Common CSS padding*/
   .section-padding {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -1549,6 +1563,20 @@ input[type="submit"]:focus {
 
   .section-padding-bottom {
     padding-bottom: 80px;
+  }
+
+  /* common css margin */
+  .section-margin {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .section-margin-top {
+    margin-top: 80px;
+  }
+
+  .section-margin-bottom {
+    margin-bottom: 80px;
   }
 
   /*Intro Section*/
@@ -2048,6 +2076,19 @@ input[type="submit"]:focus {
     padding-bottom: 100px;
   }
 
+  .section-margin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .section-margin-top {
+    margin-top: 100px;
+  }
+
+  .section-margin-bottom {
+    margin-bottom: 100px;
+  }
+
   /*Intro Section*/
   .hero {
     height: 855px;
@@ -2256,6 +2297,19 @@ input[type="submit"]:focus {
 
   .section-padding-bottom {
     padding-bottom: 50px;
+  }
+
+  .section-margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .section-margin-top {
+    margin-top: 50px;
+  }
+
+  .section-margin-bottom {
+    margin-bottom: 50px;
   }
 
   /*Hero*/

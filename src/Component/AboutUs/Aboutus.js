@@ -10,11 +10,11 @@ const Aboutus = () => {
         <div>
             {/* About */}
             <PageTitle title=' About Us '></PageTitle>
-            <section class="about-section py-5">
+            <section class="about-section section-padding">
                 <div class="container">
                     {/* 1st Part  */}
                     <div class="row">
-                        <div class="col-12 col-lg-4 mb-3 m-lg-0">
+                        <div class="col-12 col-lg-4 mb-3 m-lg-0 d-flex justify-content-center align-items-center">
                             <div class="section-image">
                                 <img src={about1} alt="" />
                             </div>
@@ -49,7 +49,7 @@ const Aboutus = () => {
                         </div>
                     </div>
                     {/* 2nd Part  */}
-                    <div class="row mt-4">
+                    <div class="row  article-margin-top">
                         <div class="col-12 col-lg-8 mb-3 m-lg-0">
                             <div class="section-heading mb-2 mb-md-3">
                                 <h2 class="section-title">Accounting & Taxation</h2>
@@ -71,7 +71,7 @@ const Aboutus = () => {
                                 </p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 m-lg-0">
+                        <div class="col-12 col-lg-4 m-lg-0 d-flex justify-content-center align-items-center">
                             <div class="section-image">
                                 <img src={about2} alt="" />
                             </div>
@@ -80,7 +80,7 @@ const Aboutus = () => {
                 </div>
             </section>
             {/* Services */}
-            <section class="services-about py-5">
+            <section class="services-about section-padding-bottom">
                 <div class="container">
                     <div class="section-heading mb-4 mb-md-5 text-center">
                         <h2 class="section-title">Services</h2>
@@ -89,42 +89,54 @@ const Aboutus = () => {
                     <div class="row">
                         <div class="col-12 col-md-6 mb-4">
                             <div class="services-content d-flex justify-content-between align-items-center p-3">
-                                <Link to='/'><h4>Company Registration</h4></Link>
+                                <Link to='/PrivateLimitedCompanyRegistration'><h4>Company Registration</h4></Link>
                                 <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 mb-4">
                             <div class="services-content d-flex justify-content-between align-items-center p-3">
-                                <h4>Trademark & Copyrights</h4>
+                                <Link to='/TrademarkRegistration'>
+                                    <h4>Trademark & Copyrights</h4>
+                                </Link>
                                 <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 mb-4">
                             <div class="services-content d-flex justify-content-between align-items-center p-3">
-                                <h4>Tax Registrations</h4>
+                                <Link to='/'>
+                                    <h4>Tax Registrations</h4>
+                                </Link>
                                 <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 mb-4">
                             <div class="services-content d-flex justify-content-between align-items-center p-3">
-                                <h4>Legal Documentations</h4>
+                                <Link to='/LimitedLiabilityCompany'>
+                                    <h4>Limited Liability Company
+                                    </h4>
+                                </Link>
                                 <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 mb-4">
                             <div class="services-content d-flex justify-content-between align-items-center p-3">
-                                <h4>NGO Registration Services</h4>
+                                <Link to='/USATaxAdvice'>
+                                    <h4>Tax Advice</h4>
+
+                                </Link>
                                 <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 mb-4">
                             <div class="services-content d-flex justify-content-between align-items-center p-3">
-                                <h4>Others Service</h4>
+                                <Link to='/PartnershipAnnualComplianceTaxFiling'>
+                                    <h4>Partnership Tax Filing</h4>
+                                </Link>
                                 <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>
@@ -136,14 +148,19 @@ const Aboutus = () => {
                     <div class="row">
                         <div class="col-12 col-md-6 mb-4">
                             <div class="services-content d-flex justify-content-between align-items-center p-3">
-                                <h4>Outsourced CFO Services for USA</h4>
+                                <Link to='/CfoServices'>
+                                    <h4>Outsourced CFO Services for USA</h4>
+                                </Link>
                                 <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 mb-4">
                             <div class="services-content d-flex justify-content-between align-items-center p-3">
-                                <h4>Bookkeeping & Taxation Services for USA</h4>
+                                <Link to='/BookkeepingServices'>
+                                    <h4>Bookkeeping & Taxation Services for USA</h4>
+
+                                </Link>
                                 <i class="fa fa-long-arrow-right"></i>
                             </div>
                         </div>

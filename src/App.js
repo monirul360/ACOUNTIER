@@ -30,6 +30,9 @@ import PrivateLimitedCompanyRegistration from './Component/PrivateLimitedCompany
 import PartnershipAnnualComplianceTaxFiling from './Component/PartnershipAnnualComplianceTaxFiling/PartnershipAnnualComplianceTaxFiling';
 import Error from './Component/Error/Error';
 import PrivateLimitedCompanyTaxFiling from './Component/PrivateLimitedCompanyTaxFiling/PrivateLimitedCompanyTaxFiling';
+import PartnershipCompany from './Component/PartnershipCompany/PartnershipCompany';
+import USATaxAdvice from './Component/USATaxAdvice/USATaxAdvice';
+import BusinessTaxFiling from './Component/BusinessTaxFiling/BusinessTaxFiling';
 function App() {
   return (
     <>
@@ -71,6 +74,9 @@ function App() {
         <Route path='/ProprietorshipTaxFiling' element={<ProprietorshipTaxFiling></ProprietorshipTaxFiling>}></Route>
         <Route path='/PrivateLimitedCompanyRegistration' element={<PrivateLimitedCompanyRegistration></PrivateLimitedCompanyRegistration>}></Route>
         <Route path='/ProprietorshipFirm' element={<ProprietorshipFirm></ProprietorshipFirm>}></Route>
+        <Route path='/PartnershipCompany' element={<PartnershipCompany></PartnershipCompany>}></Route>
+        <Route path='/USATaxAdvice' element={<USATaxAdvice></USATaxAdvice>}></Route>
+        <Route path='/BusinessTaxFiling' element={<BusinessTaxFiling></BusinessTaxFiling>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
       </Routes>
       <Footer></Footer>

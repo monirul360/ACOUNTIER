@@ -77,13 +77,24 @@ const PrivateLimitedCompanyTaxFiling = () => {
                                 It is Vital to Consult the Board Meeting with all the directors within 30 days of the Incorporation of the Company. Four Board Meetings
                                 should be conducted every 3 months where at least 2 directors of the company should be present in the meeting.
                             </p>
-                            <h4>Allowed Deductibles</h4>
+                            <h4>Income Tax Compliance </h4>
                             <ul className='mx-4'>
-                                <li>Renumerations paid to the partners of the Firm which is not registered.</li>
-                                <li>Renumeration Or Salaries paid to the non-working partners of the Company.</li>
-                                <li>If the Renumerations were made on the Partnerships, The date of the Partnership signed will be taken in the Consideration
-                                    before calculating the deductibles. </li>
+                                <li>Advance Tax Payment Quarterly Basis.</li>
+                                <li>Filing of the Income Tax Returns.</li>
+                                <li>Tax Audit in case the gross of the Business exceeds 1 Crores Rs/-</li>
+                                <li>Filing the Tax Audit Report.</li>
                             </ul>
+                        </div>
+                    </div>
+                    {/* Site Promotion  */}
+                    <div class="promotion-section bg-light">
+                        <div class="container">
+                            <div class="promotion-content">
+                                <p>
+                                    ACOUNTIER will be providing you with the dedicated accounts manager who can take care of all your
+                                    compliance of the Private Limited Company. Connect with us Now!
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

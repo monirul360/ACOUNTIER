@@ -1,5 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import facebook from './../../../Image/icons/Footer-icon/facebook.svg';
+import youtube from './../../../Image/icons/Footer-icon/youtube.svg';
+import dribbble from './../../../Image/icons/Footer-icon/dribbble.svg';
+import figma from './../../../Image/icons/Footer-icon/figma.svg';
+import whatsapp from './../../../Image/icons/Footer-icon/whatsapp.svg';
+import call from './../../../Image/icons/Footer-icon/call-calling.svg';
+import sms from './../../../Image/icons/Footer-icon/sms.svg';
+
 const Footer = () => {
     return (
         <>
@@ -25,19 +33,19 @@ const Footer = () => {
                                 <div class="footer-one-icon">
                                     <ul>
                                         <li>
-                                            <a href="#"><img src='/' alt="facebook" /></a>
+                                            <Link to="#"><img src={facebook} alt="facebook" /></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><img src="./img/vector/youtube.svg" alt="youtube" /></a>
+                                            <Link to="#"><img src={youtube} alt="youtube" /></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><img src="./img/vector/dribbble.svg" alt="dribbble" /></a>
+                                            <Link to="#"><img src={dribbble} alt="dribbble" /></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><img src="./img/vector/figma.svg" alt="figma" /></a>
+                                            <Link to="#"><img src={figma} alt="figma" /></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><img src="./img/vector/whatsapp.svg" alt="whatsapp" /></a>
+                                            <Link to="#"><img src={whatsapp} alt="whatsapp" /></Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -51,11 +59,11 @@ const Footer = () => {
                                 </div>
                                 <div class="footer-content">
                                     <ul>
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Careers</a></li>
-                                        <li><a href="#">Jobs</a></li>
-                                        <li><a href="#">In Press</a></li>
+                                        <li><Link to="Aboutus">About us</Link></li>
+                                        <li><Link to="3">Blog</Link></li>
+                                        <li><Link to="#">Careers</Link></li>
+                                        <li><Link to="#">Jobs</Link></li>
+                                        <li><Link to="#">In Press</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -68,11 +76,11 @@ const Footer = () => {
                                 </div>
                                 <div class="footer-content">
                                     <ul>
-                                        <li><a href="#">Contact us</a></li>
-                                        <li><a href="#">Online Chat</a></li>
-                                        <li><a href="#">Whatsapp</a></li>
-                                        <li><a href="#">Telegram</a></li>
-                                        <li><a href="#">Ticketing</a></li>
+                                        <li><Link to="/ContactUs">Contact us</Link></li>
+                                        <li><Link to="#">Online Chat</Link></li>
+                                        <li><Link to="#">Whatsapp</Link></li>
+                                        <li><Link to="#">Telegram</Link></li>
+                                        <li><Link to="#">Ticketing</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -86,7 +94,7 @@ const Footer = () => {
                                 <div class="footer-content">
                                     <div class="footer-contact">
                                         <div class="footer-contact-icon">
-                                            <img src="./img/vector/call-calling.svg" alt="" />
+                                            <img src={call} alt="" />
                                         </div>
                                         <div class="contact-text">
                                             <span>Have a Question?</span>
@@ -95,7 +103,7 @@ const Footer = () => {
                                     </div>
                                     <div class="footer-contact">
                                         <div class="footer-contact-icon">
-                                            <img src="./img/vector/sms.svg" alt="" />
+                                            <img src={sms} alt="" />
                                         </div>
                                         <div class="contact-text">
                                             <span>Contact us at</span>
@@ -106,6 +114,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+                    <br /><br />
                 </div>
 
                 <div class="footer-bottom">

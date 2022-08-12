@@ -14,7 +14,7 @@ const IndianSubsidiary = () => {
             {/* Indian-Subsidiary */}
             <PageTitle title='Indian Subsidiary'></PageTitle>
             {/* Page Post Section */}
-            <section class="page-post-section py-5">
+            <section class="page-post-section section-padding">
                 <div class="container">
                     {/* 1st Part  */}
                     <div class="row">
@@ -39,7 +39,7 @@ const IndianSubsidiary = () => {
                         </div>
                     </div>
                     {/* 2nd Part  */}
-                    <div class="row mt-5">
+                    <div class="row section-margin">
                         <div class="col-12 col-lg-8 mb-3 m-lg-0">
                             <div class="section-content">
                                 <div class="section-heading mb-2 mb-md-3">
@@ -57,7 +57,7 @@ const IndianSubsidiary = () => {
                         </div>
                     </div>
                     {/* 3rd Part  */}
-                    <div class="row mt-5">
+                    <div class="row section-margin">
                         <div class="col-12 col-lg-4 mb-3 m-lg-0">
                             <div class="section-image">
                                 <img src={img3} alt="" />
@@ -104,7 +104,7 @@ const IndianSubsidiary = () => {
                         </div>
                     </div>
                     {/* 5th Part  */}
-                    <div class="row mt-5">
+                    <div class="row section-margin">
                         <div class="col-12 col-lg-4 mb-3 m-lg-0">
                             <div class="section-image">
                                 <img src={img5} alt="" />

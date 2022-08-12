@@ -51,7 +51,7 @@ const Nav = () => {
                                                 ></Link>
                                             <ul class={`sub-sub-menu double-sub-one sub-nav-hide ${singleNavTwo ? 'sub-nav-show' : 'sub-nav-hide'}`}>
                                                 <li><Link to="/ProprietorshipFirm">Proprietorship Firm</Link></li>
-                                                <li><Link to="/">Partnership Company </Link></li>
+                                                <li><Link to="/PartnershipCompany">Partnership Company </Link></li>
                                                 <li><Link to="/OnePersonCompanyRegistration">One Person Company</Link></li>
                                                 <li><Link to="/LimitedLiabilityCompany">Limited Liability Company</Link></li>
                                                 <li><Link to="/PrivateLimitedCompanyRegistration">Private Limited Company</Link></li>
@@ -104,7 +104,7 @@ const Nav = () => {
                                             ></i
                                                 ></Link>
                                             <ul class={`sub-sub-menu double-sub-five sub-nav-hide ${doubleNavTwo ? 'sub-nav-show' : 'sub-nav-hide'}`}>
-                                                <li><a href="#">Business Tax Filing</a></li>
+                                                <li><Link to="/BusinessTaxFiling">Business Tax Filing</Link></li>
                                                 <li><Link to="/IncomeTaxFiling">Income Tax Filing</Link></li>
                                             </ul>
                                         </li>
@@ -118,7 +118,7 @@ const Nav = () => {
                                             <ul class={`sub-sub-menu double-sub-six sub-nav-hide ${doubleNavThree ? 'sub-nav-show' : 'sub-nav-hide'}`}>
                                                 <li><Link to="/ProprietorshipTaxFiling">Proprietorship Tax Filing</Link></li>
                                                 <li><Link to="/ProprietorshipFirm">Partnership Tax Filing</Link></li>
-                                                <li><a href="#">Company Tax Filing</a></li>
+                                                <li><Link to="/PrivateLimitedCompanyTaxFiling">Company Tax Filing</Link></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -132,7 +132,7 @@ const Nav = () => {
                                     </Link>
                                     <ul class={`sub-menu single-sub-two sub-nav-hide ${service ? 'sub-nav-show' : 'sub-nav-hide'}`}>
                                         <li><Link to="/AccountingServices">Accounting Services</Link></li>
-                                        <li><a href="#">Tax Advice</a></li>
+                                        <li><Link to="/USATaxAdvice">Tax Advice</Link></li>
                                         <li><Link to="/BookkeepingServices">Bookkeeping Services</Link></li>
                                         <li><Link to="/CfoServices">CFO Services</Link></li>
                                         <li><Link to="/PayrollServices">Payroll Services</Link></li>

@@ -1,4 +1,6 @@
 import React from 'react';
+import Choose from '../Home/Choose/Choose';
+import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
 import img from './../../Image/Page/20.png';
 const CopyrightRegistration = () => {
@@ -69,7 +71,8 @@ const CopyrightRegistration = () => {
                     </div>
                 </div>
             </section>
-
+            <Choose></Choose>
+            <Client></Client>
         </div>
     );
 };

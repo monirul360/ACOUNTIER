@@ -1,4 +1,6 @@
 import React from 'react';
+import Choose from '../Home/Choose/Choose';
+import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
 import img from './../../Image/Page/4.png';
 const DigitalSignature = () => {
@@ -44,7 +46,8 @@ const DigitalSignature = () => {
                     </div>
                 </div>
             </section>
-
+            <Choose></Choose>
+            <Client></Client>
         </div>
     );
 };

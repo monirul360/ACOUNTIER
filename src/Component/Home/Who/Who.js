@@ -24,7 +24,7 @@ const Who = () => {
                                 with our experts who have the in-depth knowledge on the Business
                                 Registration and the compliance part
                             </p>
-                            <Link class="section-button btn" to="/">Know more</Link>
+                            <Link class="section-button btn" to="/aboutus">Know more</Link>
                         </div>
                     </div>
                 </div>
