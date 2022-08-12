@@ -5,7 +5,7 @@ const Who = () => {
     return (
         <div>
             {/* Who We are  */}
-            <section class="whoWeAre section-padding bg-light">
+            <section class="whoWeAre section-padding">
                 <div class="container">
                     <div class="row">
                         <div class="img-box col-12 col-lg-4 col-xxl-5 d-lg-flex mb-5 mb-lg-0">

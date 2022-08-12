@@ -96,6 +96,25 @@
     border-radius: 20px;
 }
 
+@media (min-width:1199px) {
+    .login-section {
+        width: 1170px;
+        background: #FFFFFF;
+        border-radius: 24px;
+        padding: 20px;
+        margin: 60px auto;
+    }
+
+    .signup-section {
+        width: 1170px;
+        background: #FFFFFF;
+        padding: 20px;
+        margin: 60px auto;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    }
+}
+
 @media (max-width:768px) {
     .login-section {
         padding: 20px;
