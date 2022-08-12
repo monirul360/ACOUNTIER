@@ -11,7 +11,7 @@ const Choose = () => {
                 <div class="container">
                     <div class="section-heading text-center">
                         <h2 class="section-title">Choose Us</h2>
-                        <h3 class="section-into">Why You trust Tax Service</h3>
+                        <h3 class="section-into">Why You trust Acointier  Service</h3>
                     </div>
                     <div class="row choose-content">
                         <div class="col-12 col-lg-6 mb-5 mb-lg-0">

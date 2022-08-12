@@ -262,7 +262,7 @@ input[type="submit"]:focus {
 
 /*Who We are*/
 .whoWeAre {
-  background-color: #f9f9f9;
+  background-color: #f3f3f3;
 }
 
 .whoWeAre .img-box img {
@@ -957,9 +957,10 @@ input[type="submit"]:focus {
   color: #000000;
 }
 
-.services-about .services-content link:hover,
-.services-about .services-content a:hover {
-  color: #33b1e1;
+.services-about .services-content:hover a,
+.services-about .services-content:hover link,
+.services-about .services-content:hover h4 {
+  color: #35b0e1;
 }
 
 .services-about .services-content i {
@@ -1195,6 +1196,12 @@ input[type="submit"]:focus {
   padding: 18px;
   border: 1px solid #dddddd;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .private-ltd-company .section-item .item-box p {
@@ -2635,6 +2642,16 @@ input[type="submit"]:focus {
   /*testimonial*/
   .testimonial .testimonial-img {
     left: 40% !important;
+  }
+
+  .footer .footer-1 .footer-one-icon li {
+    width: 35px !important;
+    height: 35px !important;
+    margin-right: 10px !important;
+  }
+
+  .footer .footer-1 .footer-one-icon li img {
+    width: 20px !important;
   }
 
   /*Verification*/
