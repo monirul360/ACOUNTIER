@@ -8,6 +8,7 @@ const BlogsGrid = () => {
 
     return (
         <div>
+            {/* Blogs-Grid */}
             <PageTitle title='Blogs Grid'></PageTitle>
             <section className='section-padding'>
                 <div className="blog">

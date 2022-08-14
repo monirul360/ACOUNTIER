@@ -137,7 +137,7 @@ const Nav = () => {
                                         <li><Link to="/PayrollServices">Payroll Services</Link></li>
                                     </ul>
                                 </li>
-                                <li><Link to="#">Blog</Link></li>
+                                <li><Link to="/BlogsGrid">Blog</Link></li>
                                 <li><Link to="/ContactUs">Contact</Link></li>
                                 <li class="login"><Link to="/login">Login</Link></li>
                             </ul>

@@ -34,6 +34,7 @@ import PartnershipCompany from './Component/PartnershipCompany/PartnershipCompan
 import BusinessTaxFiling from './Component/BusinessTaxFiling/BusinessTaxFiling';
 import ResetPassword from './Component/ResetPassword/ResetPassword';
 import BlogsGrid from './Component/BlogsGrid/BlogsGrid';
+import BlogDetails from './Component/BlogDetails/BlogDetails';
 function App() {
   return (
     <>
@@ -44,6 +45,7 @@ function App() {
         <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='/resetpassword' element={<ResetPassword></ResetPassword>}></Route>
         <Route path='/blogsgrid' element={<BlogsGrid></BlogsGrid>}></Route>
+        <Route path='/blogdetails' element={<BlogDetails></BlogDetails>}></Route>
         <Route path='/aboutus' element={<Aboutus></Aboutus>}></Route>
         <Route path='/service' element={<Service></Service>}></Route>
         <Route path='/nidhicompany' element={<NidhiCompany></NidhiCompany>}></Route>
