@@ -696,3 +696,121 @@
     font-family: inter;
     font-size: 24px;
 }
+
+/* blog-article */
+.blog-article {
+    padding: 15px;
+    margin: 20px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+
+.blog-article .blog-img {
+    position: relative;
+    padding-bottom: 42px;
+}
+
+.blog-article .blog-img #blog-button {
+    width: 91px;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #33B1E1;
+    border-radius: 5px;
+}
+
+.blog-article .blog-img img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.blog-article .blog-text {
+    padding: 4px;
+}
+
+.blog-article .blog-text h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.blog-article .blog-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #424344;
+    margin-bottom: 15px;
+}
+
+.blog-article .blog-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.blog-article .blog-user>div:nth-child(2) {
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-right: 2px solid #33B1E1;
+}
+
+.blog-article .blog-user img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.blog-article .blog-user p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33B1E1;
+}
+
+.blog-next-page {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-next-page button {
+    width: 60px;
+    height: 38px;
+    margin: 5px;
+    border: 1px solid #DDDDDD;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.blog-next-page button:nth-child(2) {
+    color: #FFFFFF;
+    background: #33B1E1;
+}
+
+.blog-next-page button:last-child {
+    color: #FFFFFF;
+    background: #33B1E1;
+}
+
+@media (min-width:1199px) {
+    .blog-article .blog-img img {
+        width: 100%;
+        height: 335px;
+        border-radius: 5px;
+    }
+
+}

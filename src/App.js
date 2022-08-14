@@ -32,6 +32,8 @@ import Error from './Component/Error/Error';
 import PrivateLimitedCompanyTaxFiling from './Component/PrivateLimitedCompanyTaxFiling/PrivateLimitedCompanyTaxFiling';
 import PartnershipCompany from './Component/PartnershipCompany/PartnershipCompany';
 import BusinessTaxFiling from './Component/BusinessTaxFiling/BusinessTaxFiling';
+import ResetPassword from './Component/ResetPassword/ResetPassword';
+import BlogsGrid from './Component/BlogsGrid/BlogsGrid';
 function App() {
   return (
     <>
@@ -40,6 +42,8 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
+        <Route path='/resetpassword' element={<ResetPassword></ResetPassword>}></Route>
+        <Route path='/blogsgrid' element={<BlogsGrid></BlogsGrid>}></Route>
         <Route path='/aboutus' element={<Aboutus></Aboutus>}></Route>
         <Route path='/service' element={<Service></Service>}></Route>
         <Route path='/nidhicompany' element={<NidhiCompany></NidhiCompany>}></Route>

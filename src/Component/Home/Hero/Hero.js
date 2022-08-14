@@ -11,14 +11,12 @@ const Hero = () => {
                         <div class="hero-text col-lg-6 col-12">
                             <div class="text-box">
                                 <h2 class="hero-title">
-                                    One Stop Solution for the Accounting & Taxation Services for
-                                    India and USA.
+                                    Proficient Team for
+                                    Accounting, Taxation
+                                    and Legal Services across the Globe.
                                 </h2>
                                 <p class="hero-description">
-                                    ACOINTIER is a technology backed up Accounting and Legal Service
-                                    Firm providing the Services for the Small Businesses, Start-up
-                                    Firms, Large Businesses and Corporate Companies across India and
-                                    USA.
+                                    ACOUNTIER is a Technology backed up Accounting, Compliance, Taxation and Legal Services firm for the MSME, Small Businesseses, Start-up Firms, Corporate Companies across India and USA.
                                 </p>
                                 <Link class="hero-button btn bg-white" to="/aboutus">Discover Us</Link>
                             </div>
