@@ -1,7 +1,7 @@
 import React from 'react';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
-import img from './../../Image/Page/30.png';
+import img from './../../Image/Page/blog.png';
 const BlogsGrid = () => {
 
     const post = [1, 2, 3, 4, 5, 6, 7, 8, 9];

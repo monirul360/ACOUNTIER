@@ -1,5 +1,5 @@
 import React from 'react';
-import img from './../../Image/Page/login.png';
+import img from './../../Image/Page/30.png';
 const ResetPassword = () => {
     return (
         <div>

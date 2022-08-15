@@ -20,6 +20,15 @@ const Login = () => {
                                     name=""
                                     placeholder='Email ID or Phone Number'
                                     id="" />
+                                <div className="d-flex justify-content-between mx-3 mt-3 mb-3">
+                                    <div>
+                                        <input type="checkbox" name="" id="" />
+                                        <span className='ms-2'>Remember me</span>
+                                    </div>
+                                    <div>
+                                        <Link to='/resetpassword'>Forgot Password?</Link>
+                                    </div>
+                                </div>
                                 <p className='my-4'><span>We will send you a verification code to verify your phone number.</span></p>
 
                                 <input

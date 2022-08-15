@@ -1,7 +1,7 @@
 import React from 'react';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
-import img from './../../Image/Page/20.png';
+import img from './../../Image/Page/blog2.png';
 const BlogDetails = () => {
     return (
         <div>
