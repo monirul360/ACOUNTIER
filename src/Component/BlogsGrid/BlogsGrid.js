@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Client from '../Home/Client/Client';
 import PageTitle from '../PageTitle/PageTitle';
 import img from './../../Image/Page/blog.png';
@@ -18,27 +19,29 @@ const BlogsGrid = () => {
                                 post.map(post =>
                                     <div className="col-md-6 col-lg-4">
                                         <div className='blog-article'>
-                                            <div className="blog-img">
-                                                <img className='img-fluid' src={img} alt="" />
-                                                <button id='blog-button'>Business</button>
-                                            </div>
-                                            <div className='blog-text'>
-                                                <h3>Benefits Of Registering A Private
-                                                    Limited Business</h3>
-                                                <p>Nidhi companies cannot carry the chit funds
-                                                    another company or control any board of</p>
-                                            </div>
-                                            <div className="blog-user">
-                                                <div>
-                                                    <img src={img} alt="" />
+                                            <Link to='/blogdetails'>
+                                                <div className="blog-img">
+                                                    <img className='img-fluid' src={img} alt="" />
+                                                    <button id='blog-button'>Business</button>
                                                 </div>
-                                                <div>
-                                                    <p>Lorim Isuacob</p>
+                                                <div className='blog-text'>
+                                                    <h3>Benefits Of Registering A Private
+                                                        Limited Business</h3>
+                                                    <p>Nidhi companies cannot carry the chit funds
+                                                        another company or control any board of</p>
                                                 </div>
-                                                <div>
-                                                    <p>15 Nov 2021</p>
+                                                <div className="blog-user">
+                                                    <div>
+                                                        <img src={img} alt="" />
+                                                    </div>
+                                                    <div>
+                                                        <p>Lorim Isuacob</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>15 Nov 2021</p>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </Link>
                                         </div>
                                     </div>
                                 )
